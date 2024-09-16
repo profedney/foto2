@@ -1,0 +1,39 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.foto {
+    flex: 1 1 45%;
+    max-width: 45%;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+    .foto {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+}
