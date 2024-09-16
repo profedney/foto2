@@ -1,6 +1,7 @@
 # Álbum de Fotografias Minimalista e Responsivo
 
 Veja a demonstração deste Album: https://profedney.github.io/foto2/
+
 Este é um projeto simples de um álbum de fotografias minimalista e responsivo, utilizando HTML e CSS com Flexbox. O álbum é estilizado para apresentar duas colunas de imagens em dispositivos de tela maior, como desktops, e uma coluna em dispositivos móveis.
 
 ## Características
